@@ -1,3 +1,3 @@
 def call() {
-  https://github.com/GOUD4275/jenkins.git
+sh 'echo Hi From DevOps Team'
 }
