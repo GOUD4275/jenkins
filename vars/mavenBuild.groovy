@@ -1,3 +1,7 @@
 def call() {
-  cleanWs()
+  post { 
+        always { 
+            cleanWs()
+        }
+  }
 }
